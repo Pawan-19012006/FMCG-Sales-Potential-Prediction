@@ -2,8 +2,6 @@
 
 An end-to-end Machine Learning project focused on predicting the **sales potential of FMCG products** based on product characteristics and outlet information using regression models and an interactive Streamlit dashboard.
 
----
-
 ![Dashboard Preview](images/dashboard.png)
 
 # Project Overview
