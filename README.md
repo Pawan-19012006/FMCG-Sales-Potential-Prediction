@@ -4,6 +4,8 @@ An end-to-end Machine Learning project focused on predicting the **sales potenti
 
 ---
 
+![Dashboard Preview](images/dashboard.png)
+
 # Project Overview
 
 This project was developed to explore how Machine Learning can be used in the FMCG (Fast-Moving Consumer Goods) domain to estimate the potential sales performance of products.
