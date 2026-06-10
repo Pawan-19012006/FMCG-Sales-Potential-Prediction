@@ -1,8 +1,62 @@
+
+<div align="center">
+
 # FMCG Sales Potential Prediction Dashboard
 
-An end-to-end Machine Learning project focused on predicting the **sales potential of FMCG products** based on product characteristics and outlet information using regression models and an interactive Streamlit dashboard.
+<br>
+
+<p align="center">
+  <img src="https://img.shields.io/badge/PYTHON-3.11+-3776AB?style=for-the-badge&labelColor=4B4B4B" />
+  <img src="https://img.shields.io/badge/FRAMEWORK-STREAMLIT-FF4B4B?style=for-the-badge&labelColor=4B4B4B" />
+  <img src="https://img.shields.io/badge/DATA-PANDAS-150458?style=for-the-badge&labelColor=4B4B4B" />
+  <img src="https://img.shields.io/badge/ML-SCIKIT--LEARN-F7931E?style=for-the-badge&labelColor=4B4B4B" />
+  <img src="https://img.shields.io/badge/MODEL-XGBOOST-EF4444?style=for-the-badge&labelColor=4B4B4B" />
+</p>
+
+<p align="center">
+  <img src="https://img.shields.io/badge/ARCHITECTURE-REGRESSION_PIPELINE-6B7280?style=for-the-badge&labelColor=4B4B4B" />
+</p>
 
 ![Dashboard Preview](images/dashboard.png)
+</div>
+
+# Table of Contents
+
+- [Project Overview](#project-overview)
+- [Problem Statement](#problem-statement)
+- [System Architecture](#system-architecture)
+- [Dataset Used](#dataset-used)
+  - [Key Features Used](#key-features-used)
+  - [Target Variable](#target-variable)
+- [Tech Stack Used](#tech-stack-used)
+  - [Programming Language](#programming-language)
+  - [Libraries & Frameworks](#libraries--frameworks)
+    - [Data Processing](#data-processing)
+    - [Data Visualization](#data-visualization)
+    - [Machine Learning](#machine-learning)
+    - [Model Deployment](#model-deployment)
+    - [Model Serialization](#model-serialization)
+- [Machine Learning Workflow](#machine-learning-workflow)
+  - [1. Data Cleaning](#1-data-cleaning)
+  - [2. Feature Engineering](#2-feature-engineering)
+  - [3. Exploratory Data Analysis (EDA)](#3-exploratory-data-analysis-eda)
+  - [4. Model Training](#4-model-training)
+  - [5. Hyperparameter Tuning](#5-hyperparameter-tuning)
+- [Model Performance](#model-performance)
+- [Dashboard Features](#dashboard-features)
+  - [Dashboard Inputs](#dashboard-inputs)
+  - [Dashboard Output](#dashboard-output)
+- [Key Insights From The Model](#key-insights-from-the-model)
+- [Challenges Faced](#challenges-faced)
+  - [1. Lack of Product Identity](#1-lack-of-product-identity)
+  - [2. No Quantity Sold Information](#2-no-quantity-sold-information)
+  - [3. No Time-Series Information](#3-no-time-series-information)
+  - [4. Business Interpretation Challenges](#4-business-interpretation-challenges)
+- [Key Learnings](#key-learnings)
+- [Future Improvements](#future-improvements)
+- [Conclusion](#conclusion)
+
+---
 
 # Project Overview
 
@@ -32,6 +86,11 @@ Given a product's characteristics such as:
 - Outlet Information
 
 predict the expected sales potential of the product.
+
+---
+# System Architecture
+
+![System Arch](images/fmcg_potential_system.png)
 
 ---
 
@@ -91,6 +150,12 @@ The dataset contains information about products sold across multiple retail outl
 ---
 
 # Machine Learning Workflow
+
+<div align="center">
+
+<img src="images/fmcg_potential_workflow.png" width="700"/>
+
+</div>
 
 ## 1. Data Cleaning
 - Handled missing values
